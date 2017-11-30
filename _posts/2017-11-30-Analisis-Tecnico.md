@@ -12,7 +12,7 @@ author: David L Hong
 description: Analisis de equity segun indicadores tecnicos
 ---
 
-El siguiente post va a ser un resumen del DVD `Trade on the fly` por Michele, swing trader de Investors Underground.
+El siguiente post va a ser un resumen del DVD **Trade on the fly** por Michele, swing trader de Investors Underground.
 
 # Titulo
 
