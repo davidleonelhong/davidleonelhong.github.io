@@ -1,5 +1,5 @@
 ---
-title: "Analisis Tecnico by Offshorehunters"
+title: "Análisis Técnico by Offshorehunters"
 layout: post
 mathjax: true
 date: 2017-11-30
