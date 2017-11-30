@@ -20,7 +20,7 @@ resume: false
 resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://conguero.github.io
+url: https://davidleonelhong.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -46,7 +46,7 @@ disqus:
 linkedin: david-leonel-hong-ab7131137
 # youtube: myyoutube
 # spotify: myspotify
-github: conguero
+github: davidleonelhong
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
