@@ -14,4 +14,4 @@ description: Analisis de equity segun indicadores tecnicos
 
 # RESUMEN
 
-El siguiente post va a ser un resumen de `Trade on the fly` por Michele, swing trader de Investors Underground.
+El siguiente post va a ser un resumen de `TradeOnTheFly` por Michele, swing trader de Investors Underground.
