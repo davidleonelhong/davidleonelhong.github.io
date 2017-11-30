@@ -12,8 +12,6 @@ author: David L Hong
 description: Analisis de equity segun indicadores tecnicos
 ---
 
-El siguiente post va a ser un resumen de *Trade on the fly* por Michele, swing trader de Investors Underground.
+# RESUMEN
 
-# Titulo
-
-Transcribir el resumen con el Markdown de github adecuado!
+El siguiente post va a ser un resumen de `Trade on the fly` por Michele, swing trader de Investors Underground.
