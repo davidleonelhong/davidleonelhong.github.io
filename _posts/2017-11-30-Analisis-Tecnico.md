@@ -8,7 +8,7 @@ tag:
 - Finance
 - Technical Analysis
 category: blog
-author: David L Hong
+author: David Leonel Hong
 description: Analisis de equity segun indicadores tecnicos
 ---
 
