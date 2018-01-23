@@ -55,10 +55,10 @@ Sus desventajas son su complejidad para customizar y dificultad de alcanzar dich
 ## 4. Historical Data Structure
 
 Acontinuacion les voy a presentar un patron comun para la construccion de un equity security master, el cual podran modificar para que encaje con sus propias comodidades. La primer tarea es definir nuestras entidades, que son los elementos de la data financiera que van a transformarse en tablas de la base de datos. Para el equity master databse:
-• Exchanges - Cual es la fuente original de data?
-• Vendor - De donde es obtenido un data point particular?
-• Instrumento/Ticker - El ticker/simbolo para la accion o indice, junto con informacion corporativa de la firma o fondo.
-• Precio - El precio actual de un instrumento e un dia particular.
-• Acciones corporativas - Lista de todos los splits o ajustes de dividendos, necesarios para ajustar la pricing data.
-• Feriados Nacionales - Para que los dias que no se tradea no sean contados como errores por falta de datos.
+* Exchanges - Cual es la fuente original de data?
+* Vendor - De donde es obtenido un data point particular?
+* Instrumento/Ticker - El ticker/simbolo para la accion o indice, junto con informacion corporativa de la firma o fondo.
+* Precio - El precio actual de un instrumento e un dia particular.
+* Acciones corporativas - Lista de todos los splits o ajustes de dividendos, necesarios para ajustar la pricing data.
+* Feriados Nacionales - Para que los dias que no se tradea no sean contados como errores por falta de datos.
 
