@@ -53,7 +53,7 @@ Mediante el HE vamos a poder se va a poder identificar si la serie tiene reversi
 
 ## Cointegración:
 
-El comportamiento de los equities se asemeja generalmente al GBM, por eso lo mas conveniente es crear un portfolio de series de precios estacionarios, donde podemos aplicar estrategias de trading de reversión a la media al portfolio. Las estrategias más simples de reversión a la media son los **pairs trade**, que incluyen al `dollar-neutral long-short pair of equities`. Esto se debe a que probablemente 2 compañías en el mismo sector estén expuestas a los mismos factores de mercado, que afecten a sus negocios. Ocasionalmente sus precios relativos van a divergir por diferentes eventos, pero convergerán en un futuro a su media de largo plazo.
+El comportamiento de los equities se asemeja generalmente al GBM, por eso lo mas conveniente es crear un portfolio de series de precios estacionarios, donde podemos aplicar estrategias de trading de reversión a la media al portfolio. Las estrategias más simples de reversión a la media son los **pairs trade**, que incluyen al **dollar-neutral long-short pair of equities**. Esto se debe a que probablemente 2 compañías en el mismo sector estén expuestas a los mismos factores de mercado, que afecten a sus negocios. Ocasionalmente sus precios relativos van a divergir por diferentes eventos, pero convergerán en un futuro a su media de largo plazo.
 
 #### Cointegrated Augmented Dickey-Fuller (CADF)
 
