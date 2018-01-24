@@ -18,14 +18,14 @@ description: Analisis de equity segun indicadores tecnicos
 
 ## 1. Securities Master Database
 
-Un `securities master database` es una base de datos que guarda datos fundamentales,
+Un **securities master database** es una base de datos que guarda datos fundamentales,
 de precios y transaccionales para una variedad de instrumentos financieros. Provee acceso a esta informacion de una manera consisitente
 para ser usada por otros departamentos como Risk Management. Alguno de los instrumentos de los SMD son acciones, opciones, indices, forex, tasas de interes, futuros, commodities, bonos y derivados.
 
 ## 2. Financial Datasets
 
 Para los fondos cuantitativos chicos y los algorithmic traders independientes, 
-los datasets mas comunes son `end-of-day` y el `intraday` de precios historicos para acciones, indices, futuros y forex.
+los datasets mas comunes son **end-of-day** y el **intraday** de precios historicos para acciones, indices, futuros y forex.
 Lo recomendado es obtener la mayor cantidad de data posible, especialmente para los datos EOD que su almacenamiento es barato.
 
 ## 3. Storage Formats
@@ -36,14 +36,14 @@ grados de acceso, rendimiento y capacidades estructurales.
 #### 3.1 Flat-File Storage
 
 La mas sencilla para almacenar data financiera y probablemente la manera en que recibas los datos de cualquier proveedor. 
-Por lo general vienen en el formate de `Comma Separated Variable (CVS)`.
+Por lo general vienen en el formate de **Comma Separated Variable (CVS)**.
 La ventaja de los flat-files es la facilidad de comprimir los archivos para guardarlos o bajarlos.
 
 #### 3.2 Document Stores/NoSQL
 
-Son colecciones y documentos. Los `Document stores`, en aplicaciones financieras, son adecuados para data fundamental o meta data.
-La data fundamental financera viene en muchas formas como `corporate actions, earnings
-statements, SEC filings etc`. La desventaja del NoSQL DBs es que no esta diseñada para series de tiempo como high-resolution pricing data.
+Son colecciones y documentos. Los **Document stores**, en aplicaciones financieras, son adecuados para data fundamental o meta data.
+La data fundamental financera viene en muchas formas como **corporate actions, earnings
+statements, SEC filings etc**. La desventaja del NoSQL DBs es que no esta diseñada para series de tiempo como high-resolution pricing data.
 
 #### 3.3 Relational Database Management Systems
 
