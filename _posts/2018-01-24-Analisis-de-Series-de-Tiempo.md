@@ -1,5 +1,5 @@
 ---
-title: "Analsis de Series de Tiempo"
+title: "Analisis de Series de Tiempo"
 layout: post
 mathjax: true
 date: 2018-01-24
