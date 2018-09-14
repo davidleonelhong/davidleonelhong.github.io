@@ -5,7 +5,7 @@ mathjax: true
 date: 2018-09-14
 tag:
 - Data Science
-- Analsis de Datos
+- Analisis de Datos
 category: blog
 author: David Leonel Hong
 description: Introduccion al analisis de datos.
