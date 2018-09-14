@@ -34,8 +34,11 @@ Limpieza y transformacion de datos (B) para poder analizar datos de calidad, ya 
 ### 3. ANALISIS DE DATOS:
 Seleccionar tecnicas de analisis y crear modelos de tus datos ingresados para obtener resultados. Existen varias tecnicas para analizar pero las mas conocidas son las de clasificacion (predecir una categoria Ej. La accion sube o baja mañana), regresion (predecir valores numericos Ej. La accion va a valer $35), clustering (organizar items similiares en grupos Ej. Niños, adultos y ancianos), analisis de asociaciones (Encontrar reglas para capturar asociaciones entre items Ej. Que la gente licita LEBACS es mas propensa a invertir en otros activos financieros) y graficos analiticos (para encontrar conexiones Ej. Expansion de una epidemia). A partir de una de ellas, se crea el modelo y se evalua su eficiencia. Para ello, dividimos la serie de datos en 2 partes: la 1ra se utiliza para construir el modelos y la 2da para evaluar si funciona. 
 
-### 3. REPORTAR:
+### 4. REPORTAR:
+Presentar los resultados, se suelen utilizar graficos y tablas para comunicar. 
 
+### 5. ACTUAR:
+Utilizar el analisis y el reporte para aplicar las ideas/conclusiones del modelo a nuestro favor.
 
 
 
