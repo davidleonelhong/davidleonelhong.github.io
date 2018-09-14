@@ -10,9 +10,7 @@ category: blog
 author: David Leonel Hong
 description: Introduccion al analisis de datos.
 ---
-# INTRODUCCION AL DATA SCIENCE
-
-## FRAMEWORK BASICO EN UN PROYECTO DE DATA SCIENCE
+# FRAMEWORK BASICO EN UN PROYECTO DE DATA SCIENCE
 
 **1. Adquisicion de Datos:** Importar datos crudos a la plataforma de analisis.
 
