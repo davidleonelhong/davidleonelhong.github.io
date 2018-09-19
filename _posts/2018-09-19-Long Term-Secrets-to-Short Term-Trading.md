@@ -14,3 +14,5 @@ author: David Leonel Hong
 description: Resumen del libro
 ---
 # RESUMEN:
+
+Small ranges beget large ranges. Large ranges beget small ranges. 
