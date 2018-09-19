@@ -13,4 +13,4 @@ category: blog
 author: David Leonel Hong
 description: Resumen del libro
 ---
-# Long-Term Secrets to Short-Term Trading by Larry Williams:
+# RESUMEN:
