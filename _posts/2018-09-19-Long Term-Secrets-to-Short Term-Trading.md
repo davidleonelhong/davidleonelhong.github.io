@@ -35,3 +35,15 @@ description: Resumen del libro
 * Large Range Down days (LRDD) suelen abrir cerca de los maximos y cerrar cerca de los minimos.
 * Cuanto mayor es la variacion ente el Open respecto al low (LRUD) o high (LRDD), mas se reduce la probabilidad de que sea uno de estos dias.
 
+## Volatility Breakouts:
+* Si los precios tienen un movimiento explosivo para arriba o abajo, el mercado va a continuar esa tendencia hasta qye haya un movimiento explosivo opuesto de mayor o igual magnitud.
+
+> Daily Range Values: High-Low
+
+* El DRV mide la volatilidad diaria, cuando esto aumenta, implica un posible cambio de tendencia.
+* Utiliza el daily range de t-1.
+* Para los entry usa los volatility breakouts, experimenta con un % del DRV de t-1 sumado al Open de t0. Ej. Si el DRV(t-1)=$0.12 y hoy abre a $10, entra en $10+(X% de $0.12). Para vender es lo mismo usa el $Open - un % del DRV(t-1) como entry de venta. 
+* Stop Loss = Experimenta con valores fijos o % del Rango del DRV(t-1). Ej. 50% del DRV(t-1) abajo del precio que entre.
+* Trading Day of the Week o Trading Day of the Month: utilizarlos para ver si pueden optimizar las estrategias.
+
+
