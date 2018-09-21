@@ -46,4 +46,8 @@ description: Resumen del libro
 * Stop Loss = Experimenta con valores fijos o % del Rango del DRV(t-1). Ej. 50% del DRV(t-1) abajo del precio que entre.
 * Trading Day of the Week o Trading Day of the Month: utilizarlos para ver si pueden optimizar las estrategias.
 
+> TDOW: compro en la apertura y vendo al cierre. Me fijo por dia (L, M, M, J, V, S, D) que que predomina por dia, si tiende a BAJAR o SUBIR. Calculo tmb el promedio de ganancias segun lo que prevalece ese dia segun el TDOW. Ej. Miercoles 57% +8 = el 57% de las veces los miercoles cierra positivo, en promedio +8.
+
+> Ejemplo de entry que uso para estrategia: comprar en la apertura del TDOW + %X del DRV(t-1). Estrategia: holdear por 3 dias.
+
 
