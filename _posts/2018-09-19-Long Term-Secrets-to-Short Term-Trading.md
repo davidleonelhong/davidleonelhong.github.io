@@ -50,4 +50,33 @@ description: Resumen del libro
 
 > Ejemplo de entry que uso para estrategia: comprar en la apertura del TDOW + %X del DRV(t-1). Estrategia: holdear por 3 dias.
 
+> Si el precio (t0) es mayor al precio (t-30), precio (t0) menor al precio (t-9). Compro al Open t+1 y vendo al close de t+2. Ademas 
+combino con TDOW o TDOM.
 
+## Estrategias Bullish:
+
+Buy signal: Outside Day a la baja = high (t0) > high (t-1) & low (t0) es < low(t-1) ademas de que el cierre (t0) es menor al low (t-1).
+* Si el dia siguiente abre menos que el close del outside down day, compro.
+* Stop de 2K y Take profit en el 1rst profitable opening.
+* Tambien se puede combinar con el TDOW.
+
+Estrategia bullish #2: busco un dia que haya cerrado arriba del close (t-1) y sea precedido por 2 dias de up close (siendo este el 3er up close)
+
+## Smash days:
+
+1. Smash Day Buy Setup (SDBS): cierre t0 < low (t-1). (Reversal)
+
+> En t+1 compro si el precio se mueve arriba del high de t0 
+
+2. Smash Day Sell Setup (SDSS): cierre t0 > high (t-1)
+
+> En t+1 vendo si el precio se mueve abajo del low de t0. (Reversal)
+
+3. Hidden Buy Smash Day (HBSD): Dia con up close (t0), no tiene que ser mayor al high de t-1. Ademas de cerrar < al open y en el 25% inferior del Daily Range. 
+
+> En t+1 compro si supera el high de t0. (Reversal)
+
+4. Hidden Sell Smash Day (HSSD): Dia con down close (t0), no tiene que ser menor al low en (t-1). Ademas de cerrar > al open y en el 25%
+superior del Daily Range.
+
+> En t+1 vendo si rompe el low de t0. (Reversal)
