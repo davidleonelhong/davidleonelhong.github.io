@@ -58,4 +58,4 @@ import matplotlib.pyplot as plt
 
 ```(MERV / MERV.loc[0] * 100).plot(figsize=(8, 6))```
 
-![Alt text](http://localhost:8889/view/Desktop/retornos.png)
+![Github Logo](C:\Users\david\Desktop\retornos.png)
