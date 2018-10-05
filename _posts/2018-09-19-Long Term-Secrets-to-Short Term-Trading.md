@@ -42,7 +42,7 @@ description: Resumen del libro
 
 * El DRV mide la volatilidad diaria, cuando esto aumenta, implica un posible cambio de tendencia.
 * Utiliza el daily range de t-1.
-* Para los entry usa los volatility breakouts, experimenta con un % del DRV de t-1 sumado al Open de t0. Ej. Si el DRV(t-1)=$0.12 y hoy abre a $10, entra en $10+(X% de $0.12). Para vender es lo mismo usa el $Open - un % del DRV(t-1) como entry de venta. 
+* Para los entry usa los volatility breakouts, experimenta con un % del DRV de t-1 sumado al Open de t0. Ej. Si el DRV(t-1) = $0.12 y hoy abre a $10, entra en $10+(X% de $0.12). Para vender es lo mismo usa el $Open - un % del DRV(t-1) como entry de venta. 
 * Stop Loss = Experimenta con valores fijos o % del Rango del DRV(t-1). Ej. 50% del DRV(t-1) abajo del precio que entre.
 * Trading Day of the Week o Trading Day of the Month: utilizarlos para ver si pueden optimizar las estrategias.
 
