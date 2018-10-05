@@ -13,7 +13,7 @@ category: blog
 author: David Leonel Hong
 description: Test de normalidad a un CSV.
 ---
-# Testeando la Normalidad de una serie
+# Testeando la Normalidad de una Serie
 
 Las **Pruebas de Normalidad** se utilizan para determinar si un conjunto de datos está bien modelado por una distribución normal y para calcular la probabilidad de que una variable aleatoria subyacente al conjunto de datos se distribuya normalmente.
 
