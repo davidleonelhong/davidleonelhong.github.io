@@ -21,41 +21,4 @@ Una basta cantidad de modelos financieros, como el **Mean-Variance Portfolio The
 
 En este caso, utilizamos datos del indice **MERVAL** desde octubre 1996 hasta septiembre 2018. De esta manera, se buscara estudiar si los retornos del indice merval se distribuyen de manera normal o no. **Tener en cuenta que los datos fueron obtenidos de Yahoo Finance y pueden tener errores debido a que no pasaron por un proceso de control y limpieza riguroso.**
 
-### Importo los paquetes y librerias necesarias
-
-```import pandas as pd
-import numpy as np
-import scipy.stats as scs
-import statsmodels.api as sm
-import matplotlib.pyplot as plt
-%matplotlib inline
-```
-### Importo el CSV y lo agrego a un dataframe llamado MERVAL
-
-```MERVAL = pd.read_csv("MERV.csv")```
-
-### Observo la forma de la serie (filas x columnas)
-
-```MERVAL.shape```
-
-### Busco si faltan valores, True=Si False=No
-
-```MERVAL.isnull().any()```
-
-### Analizo el typo del Dataframe
-
-```type(MERVAL)```
-
-### Creo un dataframe solo para los cierres ajustados y utilizo el dropna para descartar la fila con los NaN
-
-```MERV = MERVAL['Adj Close'].dropna()```
-
-### Comparo la cantidad de datos en la nueva serie sin NaN con la original, asi verifico si elimino las filas
-
-```len(MERV), len(MERVAL)```
-
-### Grafico los cierres del activo (normalizado) para que arranque de 100. Esto me permite graficar otros activos y compararlos ya que todos arrancarian del mismo punto.
-
-```(MERV / MERV.loc[0] * 100).plot(figsize=(8, 6))```
-
-![Github Logo](C:\Users\david\Desktop\retornos.png)
+[Github](https://github.com/davidleonelhong/Normality-Test-CSV/blob/master/Normality%20Test%20CSV.ipynb)
