@@ -1,5 +1,5 @@
 ---
-title: "Test de Normalidad (CSV)"
+title: "Test de Normalidad (CSV) -Python-"
 layout: post
 mathjax: true
 date: 2018-10-05
