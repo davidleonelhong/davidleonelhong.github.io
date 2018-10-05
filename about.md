@@ -5,14 +5,4 @@ mathjax: true
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-PRUEBA1PRUEBA1 PRUEBA1 PRUEBA1PRUEBA1PRUEBA1 PRUEBA1PRUEBA1
-
-PRUEBA1PRUEBA1 PRUEBA1PRUEBA1 PRUEBA1 PRUEBA1PRUEBA1
-
-PRUEBA1PR PRUEBA1 PRUEBA1PRUEBA1 PRUEBA1PRUEBA1PRUEBA1
-
-## Skills
-
-* test 1
-* test 2
-* test 3
+Hola, soy David y este es mi repositorio personal de archivos para el analisis de datos financieros. El fin del mismo es recopilar una basta cantidad de scripts y tenerlos de manera centralizada para darle soporte a mis futuros researches y proyectos. Los mismos serviran como resumenes y notas de consulta de todo lo que me pueda ser util. Soy un adicto al mercado, partidario del enfoque cuantitativo y un intento de quant trader. Opino que el futuro esta en el trading algoritmico, el deep learning y el blockchain ✌️
