@@ -21,4 +21,4 @@ Una basta cantidad de modelos financieros, como el **Mean-Variance Portfolio The
 
 En este caso, utilizamos datos del indice **MERVAL** desde octubre 1996 hasta septiembre 2018. De esta manera, se buscara estudiar si los retornos del indice merval se distribuyen de manera normal o no. **Tener en cuenta que los datos fueron obtenidos de Yahoo Finance y pueden tener errores debido a que no pasaron por un proceso de control y limpieza riguroso.**
 
-[Github](https://github.com/davidleonelhong/Normality-Test-CSV/blob/master/Normality%20Test%20CSV.ipynb)
+**LINK:** [Test de Normalidad](https://github.com/davidleonelhong/Normality-Test-CSV/blob/master/Normality%20Test%20CSV.ipynb)
