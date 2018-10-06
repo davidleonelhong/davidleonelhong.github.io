@@ -30,4 +30,4 @@ Que se obtuvo mediante el analisis:
 * Optimizacion de cartera para obtener la minima varianza absoluta.
 * Retorno Esperado Anualizado y Volatilidad Esperada Anualizada por cada optimizacion. Ademas del Sharpe Ratio para c/u.
 
-LINK: [Teoria Moderna de Cartera y Optimizaciones](https://github.com/davidleonelhong/MPT-y-Optimizacion/blob/master/%5BYahoo%20Finance%5D%20Normality%20Test%2C%20MPT%2C%20Portfolio%20Optimization.ipynb)]
+LINK DEL ANALISIS EN PYTHON: [Teoria Moderna de Cartera y Optimizaciones para el MERVAL](https://github.com/davidleonelhong/MPT-y-Optimizacion/blob/master/%5BYahoo%20Finance%5D%20Normality%20Test%2C%20MPT%2C%20Portfolio%20Optimization.ipynb)]
