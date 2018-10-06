@@ -23,7 +23,7 @@ En este caso utilizamos datos de varios activos que conforman el indice **MERVAL
 Ademas de obtener carteras eficientes segun media-varianza y optimizarlas segun **mayor Sharpe Ratio** y **menor varianza**, tambien se realizara un test de normalidad (a diferencia del otro archivo, estos datos seran importados desde un API y no un CSV).
 
 Que se obtuvo mediante el analisis:
-* Normalidad de los retornos.
+* Prueba de Normalidad para los retornos.
 * Retornos logaritmicos anualizados por accion y cartera.
 * Covarianza anualizada entre activos de la cartera.
 * Optimizacion de cartera para obtener el mayor Sharpe Ratio.
