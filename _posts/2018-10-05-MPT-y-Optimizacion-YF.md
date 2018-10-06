@@ -21,3 +21,5 @@ La **teoría moderna del portafolio** (Modern portfolio theory) examina cómo in
 En este caso utilizamos datos de varios activos que conforman el indice **MERVAL** y tomamos como fecha de inicio el 01/01/2014. **Tener en cuenta que los datos fueron obtenidos del Yahoo Finance y pueden estar sujetos a errores debido a que no pasaron por un proceso de limpieza riguroso.**
 
 Ademas de obtener carteras eficientes segun media-varianza y optimizarlas segun **mayor Sharpe Ratio** y **menor varianza**, tambien se realizara un test de normalidad (a diferencia del otro archivo, estos datos seran importados desde un API y no un CSV).
+
+LINK: [Teoria Moderna de Cartera y Optimizaciones](https://github.com/davidleonelhong/MPT-y-Optimizacion/blob/master/%5BYahoo%20Finance%5D%20Normality%20Test%2C%20MPT%2C%20Portfolio%20Optimization.ipynb)]
