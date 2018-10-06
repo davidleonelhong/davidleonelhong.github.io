@@ -2,7 +2,7 @@
 title: "Modern Portfolio Theory y Optimizacion (Yahoo Finance) [Python]"
 layout: post
 mathjax: true
-date: 2018-10-05
+date: 2018-10-08
 tag:
 - Data Science
 - Analisis de Datos
