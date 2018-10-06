@@ -28,6 +28,6 @@ Que se obtuvo mediante el analisis:
 * Covarianza anualizada entre activos de la cartera.
 * Optimizacion de cartera para obtener el mayor Sharpe Ratio.
 * Optimizacion de cartera para obtener la minima varianza absoluta.
-* Retornos Esperado Anualizado, Volatilidades Esperada Anualizada por cada optimizacion. Ademas el Sharpe Ratio para c/u.
+* Retorno Esperado Anualizado y Volatilidad Esperada Anualizada por cada optimizacion. Ademas del Sharpe Ratio para c/u.
 
 LINK: [Teoria Moderna de Cartera y Optimizaciones](https://github.com/davidleonelhong/MPT-y-Optimizacion/blob/master/%5BYahoo%20Finance%5D%20Normality%20Test%2C%20MPT%2C%20Portfolio%20Optimization.ipynb)]
