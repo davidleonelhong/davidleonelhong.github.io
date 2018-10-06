@@ -20,7 +20,7 @@ La **teoría moderna del portafolio** (Modern portfolio theory) examina cómo in
 
 En este caso utilizamos datos de varios activos que conforman el indice **MERVAL** y tomamos como fecha de inicio el 01/01/2014 hasta octubre 2018. Las acciones consideradas fueron ALUA, APBR, BMA, COME, CRES, DGCU2, EDN, GGAL, METR, MIRG, PAMP, TECO2, TGNO4, TGSU2, TRAN, TS, TXAR e YPFD. **Tener en cuenta que los datos fueron obtenidos del Yahoo Finance y pueden estar sujetos a errores debido a que no pasaron por un proceso de limpieza riguroso.**
 
-Ademas de obtener carteras eficientes segun media-varianza y optimizarlas segun **mayor Sharpe Ratio** y **menor varianza**, tambien se realizara un test de normalidad (a diferencia del otro archivo, estos datos seran importados desde un API y no un CSV).
+Ademas de obtener carteras eficientes segun media-varianza y optimizarlas segun **mayor Sharpe Ratio** y **menor varianza**, tambien se realizo un test de normalidad (a diferencia del otro archivo, estos datos seran importados desde un API y no un CSV).
 
 Que se obtuvo mediante el analisis:
 * Prueba de Normalidad para los retornos.
