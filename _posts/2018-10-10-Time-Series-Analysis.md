@@ -30,6 +30,20 @@ Output de Python:
 4.	Numero de data points en la muestra
 5.	El diccionario contiene valores críticos de la prueba estadística en valores de 1, 5 y 10 porciento.
 
-> Si el valor de test estadístico calculado es mayor a cualquier valor critico a niveles de 1%, 5% y 10%, no podemos rechazar la hipótesis nula y por eso no encontramos una serie de tiempo con reversión a la media, es decir se comporta como Geometric Brownian Motion (GBM), random walk.
+> Si el valor de test estadístico calculado no es mayor a cualquier valor critico a niveles de 1%, 5% y 10%, no se rechaza la hipótesis nula y por eso la serie se comporta como random walk (Geometric Brownian Motion). En otras palabras, no tiene reversion a la media.
+
+## Testeando Estacionariedad:
+En una serie estacionaria, la media y varianza del proceso no cambia según tiempo y espacio (se mantienen constantes) y cada una no sigue tendencia alguna. Una característica de las series de precios estacionarias es que sus precios se dispersan de su valor inicial a un ritmo más lento que la del GBM. Calculando esta **diffuse rate**, podemos intendificar la naturaleza de la serie de tiempo y detectar si hay reversión a la media.
+
+#### Hurst Exponent 
+
+Mediante el HE vamos a poder obtener un valor escalar que va a permitir identificar si la serie tiene una conducta de reversión a la media, random walk o tendencia. Se utiliza la varianza de una serie de tiempo logarítmica para evaluar la tasa del comportamiento difusivo. 
+
+* H < 0.5 -- Serie de tiempo es Mean Reverting
+* H = 0.5 -- Serie de tiempo es GBM
+* H > 0.5 -- Serie de tiempo tiene tendencia.
+* H cercano a 0 tiene mucha reversión a la media, mientras que H cercano a 1 tiene una fuerte tendencia.
+
+> Output Python: dependiendo de lo que de Hurst (ticker), vamos a ver si es GBM, MR o TR.
 
 **LINK DEL ANALISIS EN PYTHON:** [Analisis de Series de Tiempo Aplicado al MERVAL]
