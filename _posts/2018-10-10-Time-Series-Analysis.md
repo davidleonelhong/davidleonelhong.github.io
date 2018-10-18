@@ -46,4 +46,4 @@ Mediante el HE vamos a poder obtener un valor escalar que va a permitir identifi
 
 > Output Python: dependiendo de lo que de Hurst (ticker), vamos a ver si es GBM, MR o TR.
 
-**LINK DEL ANALISIS EN PYTHON:** [Analisis de Series de Tiempo Aplicado al MERVAL]
+**LINK DEL ANALISIS EN PYTHON:** [Analisis de Series de Tiempo Aplicado al MERVAL](https://github.com/davidleonelhong/Analisis-de-Series-de-Tiempo-Aplicado-al-MERVAL/blob/master/Time%20Series%20Analysis%20(CSV).ipynb)
