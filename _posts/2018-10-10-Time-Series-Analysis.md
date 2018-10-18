@@ -30,7 +30,7 @@ Output de Python:
 4.	Numero de data points en la muestra
 5.	El diccionario contiene valores críticos de la prueba estadística en valores de 1, 5 y 10 porciento.
 
-> Si el valor de test estadístico calculado no es mayor a cualquier valor critico a niveles de 1%, 5% y 10%, no se rechaza la hipótesis nula y por eso la serie se comporta como random walk (Geometric Brownian Motion). En otras palabras, no tiene reversion a la media.
+> Si el valor de test estadístico calculado es mayor a cualquier valor critico a niveles de 1%, 5% y 10%, no se rechaza la hipótesis nula y por eso la serie se comporta como random walk (Geometric Brownian Motion). En otras palabras, no tiene reversion a la media.
 
 ### Testeando Estacionariedad:
 En una serie estacionaria, la media y varianza del proceso no cambia según tiempo y espacio (se mantienen constantes) y cada una no sigue tendencia alguna. Una característica de las series de precios estacionarias es que sus precios se dispersan de su valor inicial a un ritmo más lento que la del GBM. Calculando esta **diffuse rate**, podemos intendificar la naturaleza de la serie de tiempo y detectar si hay reversión a la media.
