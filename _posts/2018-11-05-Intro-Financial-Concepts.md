@@ -1,24 +1,27 @@
 ---
-title: "Test de Normalidad (CSV) [Python]"
+title: "Introduccion a Conceptos Financieros [Python]"
 layout: post
 mathjax: true
-date: 2018-10-05
+date: 2018-11-05
 tag:
-- Data Science
-- Analisis de Datos
-- Estadistica
-- Test de Normalidad
+- VAN
+- TIR
+- WACC
+- EAA
+- Mortgage
 - Python
 category: blog
 author: David Leonel Hong
-description: Test de normalidad a un CSV.
+description: Introduccion de Conceptos Financieros.
 ---
-# Testeando la Normalidad de una Serie
+# Aplicando Conceptos Financieros en Python
 
-Las **Pruebas de Normalidad** se utilizan para determinar si un conjunto de datos está bien modelado por una distribución normal y para calcular la probabilidad de que una variable aleatoria subyacente al conjunto de datos se distribuya normalmente.
+En este repositorio se van a introducir conceptos financieros relacionados al valor del dinero en el tiempo. Las mismas seran aplicadas en python para la posterior resolucion. 
 
-Una basta cantidad de modelos financieros, como el **Mean-Variance Portfolio Theory**, el **Capital Asset Pricing Model (CAPM)**, la **Hipotesis de Mercados Eficientes** y el **Option Pricing Theory** (Geometric Brownian Motion) se basan en el supuesto de que los retornos de los activos estan normalmente distribuidos. Por eso, acontinuacion se presentaran enfoques para testear la normalidad de los retornos dada la serie de tiempo pertinente.
+Dentro de los conceptos fundamentales, se va a calcular el **valor presente y futuro del dinero** para diferentes plazos, y como obtener el **factor de descuento.** Ademas, se estudiara la manera de obtener el **WACC** de una empresa, la cual es usada como tasa de corte al evaluar de proyectos.
 
-En este caso, se van a utilizar datos del indice **MERVAL** desde octubre 1996 hasta septiembre 2018. De esta manera, se va a buscar estudiar la distribucion de los retornos del indice MERVAL. **Tener en cuenta que los datos fueron obtenidos de Yahoo Finance y pueden tener errores debido a que no pasaron por un proceso de control y limpieza riguroso.**
+En segundo lugar, se analizaran proyectos de inversion mediante diferentes indicadores como el **VAN**, la **TIR** y el **EAA**.
 
-**LINK DEL ANALISIS EN PYTHON:** [Test de Normalidad Aplicado al MERVAL](https://github.com/davidleonelhong/Normality-Test-CSV/blob/master/Normality%20Test%20CSV.ipynb)
+Por ultimo, se introduciran conceptos relacionados a las hipotecas asi como la manera de estimar la cuota mensual de las mismas.
+
+**LINK DEL ANALISIS EN PYTHON:** [Introduccion a Conceptos Financieros en Python](https://github.com/davidleonelhong/Intro-Financial-Concepts-Python/blob/master/Intro%20to%20Financial%20Concepts%20using%20Python.ipynb)
