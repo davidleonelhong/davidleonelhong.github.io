@@ -16,7 +16,7 @@ description: Introduccion de Conceptos Financieros.
 ---
 # Aplicando Conceptos Financieros en Python
 
-En este repositorio se van a introducir conceptos financieros relacionados al valor del dinero en el tiempo. Las mismas seran aplicadas en python para la posterior resolucion. 
+En este repositorio se van a introducir conceptos financieros relacionados al valor del dinero en el tiempo. Las mismas seran aplicadas en python para la posterior ejecucion. 
 
 Dentro de los conceptos fundamentales, se va a calcular el **valor presente y futuro del dinero** para diferentes plazos, y como obtener el **factor de descuento.** Ademas, se estudiara la manera de obtener el **WACC** de una empresa, la cual es usada como tasa de corte al evaluar de proyectos.
 
